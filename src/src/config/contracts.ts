@@ -1,6 +1,9 @@
 import type { Abi } from 'viem';
 
-export const SIMPLE_SWAP_ADDRESS = '0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0' as const;
+export const SIMPLE_SWAP_ADDRESS = '0x79D0Cd93a2F81A790ba352073421C433Bfc087fB' as const;
+export const MOCK_ETH_ADDRESS = '0x2FF91a8a0eF6c45cFcB73AcedAa064ED4Dd330CC' as const;
+export const MOCK_ZAMA_ADDRESS = '0xA39fcab206CE5b82f7A9742584654E1ca2427ac8' as const;
+
 export const SIMPLE_SWAP_ABI = [
   {
     "inputs": [
@@ -239,7 +242,6 @@ export const SIMPLE_SWAP = {
   abi: SIMPLE_SWAP_ABI,
 };
 
-export const MOCK_ETH_ADDRESS = '0x5FbDB2315678afecb367f032d93F642f64180aa3' as const;
 export const MOCK_ETH_ABI = [
   {
     "inputs": [],
@@ -870,7 +872,6 @@ export const MOCK_ETH = {
   abi: MOCK_ETH_ABI,
 };
 
-export const MOCK_ZAMA_ADDRESS = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512' as const;
 export const MOCK_ZAMA_ABI = [
   {
     "inputs": [],
