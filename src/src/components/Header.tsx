@@ -8,7 +8,7 @@ export function Header() {
         <div className="header-content">
           <div className="header-left">
             <h1 className="header-title">Simple Swap</h1>
-            <span className="header-badge">FHE Fixed Price Exchange</span>
+            <span className="header-badge">Zama Powered Exchange</span>
           </div>
           <ConnectButton />
         </div>
